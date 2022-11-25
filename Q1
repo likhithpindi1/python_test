@@ -1,0 +1,4 @@
+class employee:
+  def __init__(self, name, weeklyhours, rate, overtimeRate, weeklytaxcredit):
+
+  def computeWeeklyPay(self,hours):
