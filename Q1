@@ -7,8 +7,13 @@ class employee:
     self.weeklytaxcredit = weeklytaxcredit
 
   def computeWeeklyPay(self,hours):
-    return 
+    salary = self.rate * hours
+    if hours > 39:
+      overtime = hours - 39
+      salary = salary + self.overimeRate * overtime
+      
   def computerTax(self,grossPay):
+    
   
   
   
