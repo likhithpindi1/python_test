@@ -8,5 +8,7 @@ class employee:
 
   def computeWeeklyPay(self,hours):
     return 
+  def computerTax(self,grossPay):
+  
   
   
