@@ -11,7 +11,7 @@ class employee:
       weekpay = hours * self.rate
     else:
     weekpay = (self.weeklyhours * self.rate ) + ((hours - self.weeklyhours) * self.overtimeRate )
-    return weeklypay
+    return weekpay
     
       
   def computerTax(self,grossPay):
